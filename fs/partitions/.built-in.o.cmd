@@ -1,0 +1,1 @@
+cmd_fs/partitions/built-in.o :=  arm-fsl-linux-gnueabi-ld -EL    -r -o fs/partitions/built-in.o fs/partitions/check.o fs/partitions/amiga.o fs/partitions/atari.o fs/partitions/mac.o fs/partitions/ldm.o fs/partitions/msdos.o fs/partitions/osf.o fs/partitions/sgi.o fs/partitions/sun.o fs/partitions/ultrix.o fs/partitions/efi.o fs/partitions/karma.o fs/partitions/sysv68.o 

@@ -1,0 +1,1 @@
+cmd_arch/arm/plat-versatile/built-in.o :=  arm-fsl-linux-gnueabi-ld -EL    -r -o arch/arm/plat-versatile/built-in.o arch/arm/plat-versatile/clock.o arch/arm/plat-versatile/timer-sp.o arch/arm/plat-versatile/sched-clock.o 
